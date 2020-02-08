@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.header-sec {
+    background: #000000;
+    padding: 15px 010px;
+    color: white;
+    height: 30px;
+}
+a{
+    color: white;
+}
+a:hover {
+    color: #b3c5b1;
+}
+.header-logo {
+    float: left;
+    width: 25%;
+}
+.menu-bar ul li {
+    list-style: none;
+    float: left;
+}
+
+.menu-bar ul li a {
+    margin-right: 15px;
+    margin-top: 36px;
+    font-size: 18px;
+}
+
+.menu-bar {
+    width: 50%;
+    float: left;
+}
+.header-logo p{
+    font-size: 30px;
+}
+.login-button {
+    text-align: right;
+}
+@media only screen and (max-width: 900px){
+    div{
+        float: left;
+    }
+}   
+.side-link {
+    width: 20%;
+    float: left;
+    background: gainsboro;
+    margin-top: 15px;
+    padding: 10px;
+}
+.side-link ul li {
+    list-style: none;
+}
+
+.side-link ul li a {
+    display: block;
+    padding: 10px;
+    color: black;
+}
+
+.side-link h3 {
+    text-align: center;
+    border-bottom: 1px solid #bfbfbf;
+    padding: 0px 0 7px 0;
+}
