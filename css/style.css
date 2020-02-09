@@ -1,0 +1,278 @@
+.header-sec {
+    background: #000000;
+    color: white;
+    border-radius: 3px;
+    overflow: hidden;
+    align-items: center;
+}
+.header-logo {}
+.menu-bar ul li {float: left;padding: 20px 0px;}
+
+.menu-bar ul li a:hover, .active {
+    color: white;
+    background: #2c2c2c;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.menu-bar ul li a {
+    font-size: 18px;
+    padding: 22px 15px;
+}
+
+.menu-bar {clear: both;}
+.header-logo p{
+    font-size: 32px;
+    margin: 10px 0 10px 15px;
+}
+.login-button {
+    text-align: right;
+    padding: 20px 15px;
+    font-size: 18px;
+}
+.login-button a {
+    color: white;
+}
+.login-button a:hover {
+    color: #dddcdb;
+}
+.side-link {
+    background: #dcdcdc;
+    margin-top: 10px;
+}
+.menu-bar ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.side-link ul li {
+    list-style: none;
+}
+
+.side-link ul li a {
+    display: block;
+    padding: 10px;
+    color: black;
+}
+
+.side-link h3 {
+    text-align: center;
+    border-bottom: 2px solid #787878;
+    padding: 15px 0 10px 0;
+    margin: 0;
+    background: #bebebe;
+    border-radius: 3px 3px 0 0;
+}
+.article-section {
+    margin: 10px 0 0 10px;
+    float: left;
+    width: 75.7222222%;
+    background: #efefef;
+    padding: 10px;
+    border-radius: 2px;
+}
+.side-link ul {
+    margin: 0;
+    padding: 0;
+}
+
+.side-link ul li {}
+
+.side-link ul li a {
+    font-size: 16px;
+    color: black;
+    display: block;
+    border-bottom: 1px solid #bebebe;
+}
+
+.side-link ul li a:hover {
+    text-decoration: none;
+    background: #e7e7e7;
+    color: #515151;
+}
+.slider {
+    height: 350px;
+    background: gainsboro;
+    margin: 10px 0 0 10px;
+    border-radius: 3px;
+    position: relative;
+}
+.slider-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #0000003b;
+    padding: 30px;
+    border-radius: 3px;
+}
+
+.slider-img {
+    /* position: relative; */
+}
+footer {
+    background: black;
+    padding: 15px;
+    text-align: center;
+    color: white;
+}
+.footer-sec {
+    background: #191919;
+    color: white;
+    margin-top: 10px;
+    border-radius: 3px;
+    overflow: hidden;
+    padding-top: 25px;
+}
+.f-about h3 {
+    border-bottom:1px solid #343434;
+    padding: 20px 0 10px 0;
+    margin: 0 0 10px 0;
+}
+
+.f-about {
+    margin-left: 20px;
+}
+.f-about iframe {
+    padding: 0 0 10px 0;
+    width: 100%;
+    height: 200px;
+    border: 0;
+}
+
+.f-about:last-child {
+    margin-right: 15px;
+}
+.f-about ul {
+    /* margin: 0; */
+    padding: 0;
+    list-style-type: none;
+}
+
+.f-about ul li {
+    margin-bottom: 11px;
+}
+
+.f-about ul li a {
+    color: white;
+    font-size: 16px;
+}
+/*Page Title*/
+.page-title {
+    background: gray;
+    overflow: hidden;
+    text-align: center;
+    margin: 0px 0  10px 0;
+    color: white;
+    padding: 15px 0;
+}
+
+.page-title h3 {
+    margin: 0;
+    padding: 0;
+}
+
+.page-title ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.page-title ul li {
+    display: inline-block;
+}
+
+.page-title ul li:after {
+    content: "/";
+    color: black;
+}
+
+.page-title ul li a {
+    color: #515151;
+}
+
+.main-content {
+    min-height: 200px;
+    background: gainsboro;
+    margin: 0 10px 0 0;
+    border-radius: 3px;
+}
+.main-content-img {
+    max-height: 200px;
+    overflow: hidden;
+}
+
+.main-content-area h1 {
+    padding: 15px;
+    margin: 0;
+    border-bottom: 1px solid #848484;
+    background: #bebebe;
+}
+
+.main-content-area p {
+    padding: 20px;
+    font-size: 16px;
+}
+/*right Side Link sidebar*/
+.right-side-link {
+    background: #dcdcdc;
+}
+.right-side-link {
+    background: #dcdcdc;
+/*    margin-top: 10px;*/
+}
+.right-side-link ul {
+    margin: 0;
+    padding: 0;
+}
+.right-side-link ul li {
+    list-style: none;
+}
+
+.right-side-link ul li a {
+    display: block;
+    padding: 10px;
+    color: black;
+    font-size: 16px;
+    color: black;
+    display: block;
+    border-bottom: 1px solid #bebebe;
+}
+.right-side-link ul li a {
+    font-size: 16px;
+    color: black;
+    display: block;
+    border-bottom: 1px solid #bebebe;
+}
+
+.right-side-link ul li a:hover {
+    text-decoration: none;
+    background: #e7e7e7;
+    color: #515151;
+}
+
+.right-side-link h3 {
+    text-align: center;
+    border-bottom: 2px solid #787878;
+    padding: 15px 0 10px 0;
+    margin: 0;
+    background: #bebebe;
+    border-radius: 3px 3px 0 0;
+}
+
+/*Blog-Content-Area*/
+
+.main-blog {
+    min-height: 200px;
+    background: gainsboro;
+    margin: 0 10px 0 0;
+    border-radius: 3px;
+}
+.main-blog-img {
+    height: 400px;
+    padding: 20px;
+    width: 100%;
+}
+.main-blog-img img {
+    height: 360px;
+    width: 100%;
+}
