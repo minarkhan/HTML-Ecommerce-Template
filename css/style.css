@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+    background: url(../img/bg.jpg);
+}
 .header-sec {
     background: #000000;
     color: white;
@@ -158,7 +162,7 @@ footer {
 }
 /*Page Title*/
 .page-title {
-    background: gray;
+    background: #bebebe;
     overflow: hidden;
     text-align: center;
     margin: 0px 0  10px 0;
